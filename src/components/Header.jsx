@@ -11,7 +11,7 @@ import { MdDateRange } from "react-icons/md";
 import { LuUserRound } from "react-icons/lu";
 import { useState } from "react";
 
-
+import {Link} from 'react-router-dom'
 
 const Header = () => {
   const [isChecked , setIsChecked] = useState(false)
@@ -35,7 +35,7 @@ const Header = () => {
               <button className=" hover:bg-[#999] hover:bg-opacity-30 h-[50px] w-[50px] rounded-md flex justify-center items-center"><CiCircleQuestion className='text-white text-3xl' /></button>
               <button className="text-white text-l font-semibold hover:bg-[#999] hover:bg-opacity-30 h-[50px] w-[170px] rounded-md">List ypur Property</button>
               <button className="bg-white px-2 py-1.5 rounded-sm border-blue-600 border-[2px] text-blue-600 font-semibold transition-transform duration-100  ease-in-out active:scale-x-95 active:scale-y-105 ">Register</button>
-              <button className="bg-white px-2 py-1.5 rounded-sm border-blue-600 border-[2px] text-blue-600 font-semibold transition-transform duration-100  ease-in-out active:scale-x-95 active:scale-y-105 ">Sign in</button>
+              <button className="bg-white px-2 py-1.5 rounded-sm border-blue-600 border-[2px] text-blue-600 font-semibold transition-transform duration-100  ease-in-out active:scale-x-95 active:scale-y-105 ">Login</button>
             </div>
           </div>
 
